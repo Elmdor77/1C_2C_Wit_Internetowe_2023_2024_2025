@@ -1,0 +1,52 @@
+.body
+{
+background-color: #67e7ff;
+font-style: oblique;
+}
+.bajgel
+{
+
+    width: 100%;
+    z-index: 1;
+}
+.border
+{
+    position: fixed;
+    top: 100px;
+    width: 100%;
+    height: 1000px;
+    background: rgba(0, 0, 0, 0.3);
+    color:white;
+    text-align: center;
+    z-index:3;
+}
+.border2
+{
+    position: absolute;
+    text-align: center;
+    background-color:rgba(226, 170, 65, 0.884);
+    opacity: 1;
+    width: 100%;
+    height:400px;
+    z-index: 4;
+    top: 230px;
+    font-size: 20px;
+}
+.border3
+{
+    position: absolute;
+    text-align: center;
+    background-color:#ca7205;
+    opacity: 1;
+    width: 100%;
+    height:150px;
+    z-index: 4;
+    bottom:  auto;
+    font-size: 20px;
+}
+.tablica
+{
+    width: auto;
+    z-index: 5;
+    margin: auto;
+}
