@@ -1,0 +1,17 @@
+.sidebar {
+    position: fixed;
+    left: 10px;
+    top: 100px;
+    background-color: aquamarine;
+}
+@media print {
+    .menu {
+        display: none;
+    }
+    .comments{
+        display: none;
+    }
+    .sidebar{
+        display: none;
+    }
+}
