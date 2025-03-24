@@ -1,0 +1,73 @@
+.menu{
+    background-color: green;
+    font-size: larger;
+    text-align: center;
+    color:blue;
+}
+.menu1{
+    background-color: aqua;
+    font-size: medium;
+    color: black;
+}
+.menu2{
+    background-color: aqua;
+    font-size: medium;
+    color: black;
+}
+.menu3{
+    background-color: aqua;
+    font-size: medium;
+    color: black;
+}
+@media screen and (min-width: 1140px){
+    .menu1{
+        width: 28%;
+        margin-left: 5%;
+        float: left;
+    }
+    .menu2{
+        width:28%;
+        float: left;
+        margin-right: 3%;
+        margin-left: 3%;
+    }
+    .menu3{
+        width:28%;
+        margin-right: 5%;
+        float: left;
+    }
+}
+
+@media screen and (min-width: 600px) and (max-width: 1140px){
+    .menu1{
+        width: 30%;
+        margin-left: 20%;
+        float: left;
+    }
+    .menu2{
+        width:30%;
+        margin-right: 20%;
+        float: left;
+    }
+    .menu3{
+        width:40%;
+        margin-left: 30%;
+        margin-right: 30%;
+    }
+}
+@media screen and (max-width: 600px){
+    .menu1{
+        width: 70%;
+        margin-left: 15%;
+
+    }
+    .menu2{
+        width:70%;
+        margin-left: 15%;
+
+    }
+    .menu3{
+        width:70%;
+        margin-left: 15%;
+    }
+}
